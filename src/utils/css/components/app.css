@@ -1,0 +1,24 @@
+
+.style-app {
+    font-family: "IBMPLex";
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .style-app{height: 75vh;}
+}
+
+.app-background {
+    background: #1f2029 !important;
+}
+
+.grid-set {
+    grid-template-rows: auto;
+    /* grid-template-rows: 85% 15%; */
+}
+
+.sidebar-order {
+    order: 2
+}
+
+
