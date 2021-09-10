@@ -85,10 +85,24 @@ module.exports = {
         name: siteConfig.name,
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
-        background_color: `#ffffff`,
+        background_color: `#6f94cd`,
         theme_color: `#111111`,
         display: `standalone`,
-        icon: `content/assets/g840.png`,
+        icon: 'content/assets/lazvard.png',
+        icons: [
+          {
+            src: `content/assest/lazvard2.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+            purpose: `any`
+          },
+          {
+            src: `content/assest/lazvard.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+            purpse: `maskable`
+          },
+        ],
         description: 'App geared towards linguistics and literature with a focus on prosody and poetry.'
       },
     },

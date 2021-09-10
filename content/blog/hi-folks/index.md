@@ -8,10 +8,10 @@ tags: ["writings", "translation"]
 
 ## Nova Genesis
 The development of language has been of paramount significance in the evolutionary history of humans. 
-Taming sound must have been as incredible as vanquishing fire or inventing the wheel whenever it happened.
+Taming sound must have been as incredible as vanquishing fire or inventing the wheel, whenever it happened.
 
 Therefore, it is not without reason that we hold language so close to our hearts. Language connects us with spectres of the past and the 
-dwellers of the future: makes us question the ontological reality of time.
+dwellers of the future; it makes us question the ontological reality of time.
 
 This application is a rewrite of a previous effort and aims to be more functional and aesthetically pleasing than its forebear.
 
