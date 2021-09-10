@@ -1,13 +1,13 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center" style="text-align:center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="../lajavard/content/assets/g840.png" width="80" />
+  <a href="Lazvard.netlify.app">
+    <img alt="Lajavard" src="content/assets/g840.png" width="80" />
   </a>
 </p>
 
 <h1 align="center">
   Läžvard لاژورد
-</h1>
+</h1> 
 
 ---
 
