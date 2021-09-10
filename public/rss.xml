@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Läžvard]]></title><description><![CDATA[A unique blend of Eastern and Western High Art.]]></description><link>https://lazvard.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Sep 2021 07:23:44 GMT</lastBuildDate><item><title><![CDATA[Vaporwave]]></title><description><![CDATA[It draws primarily on musical and cultural sources from the 1980s and early 1990s while also being associated with an ambiguous or satirical…]]></description><link>https://lazvard.com/vaporwave/</link><guid isPermaLink="false">https://lazvard.com/vaporwave/</guid><pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It draws primarily on musical and cultural sources from the 1980s and early 1990s while also being associated with an ambiguous or satirical take on consumer capitalism and technoculture. Early incarnations of vaporwave relied on the sampling of sources such as Japanese city pop, smooth jazz, retro elevator music, R&amp;#x26;B, lounge music, and dance music from the 1980s and 1990s.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See the &lt;a href=&quot;https://en.wikipedia.org/wiki/Vaporwave&quot;&gt;Wikipedia&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Darkness]]></title><description><![CDATA[A wallpaper series using shapes and light by Jean-Marc Denis I used a poly reduction on the mesh as a proxy to be able to create my studio…]]></description><link>https://lazvard.com/darkness/</link><guid isPermaLink="false">https://lazvard.com/darkness/</guid><pubDate>Wed, 08 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;A wallpaper series using shapes and light by &lt;a href=&quot;http://jmd.im/black&quot;&gt;Jean-Marc Denis&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I used a poly reduction on the mesh as a proxy to be able to create my studio setup with a responsive viewport. I used a simple 2 point lighting setup. I created a roughness map using the height map to get the exact results I was looking. After that, I applied my material to the high poly mesh and used a subtle smoothing deformer for the creases.&lt;/p&gt;
+&lt;p&gt;This is the final render.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Guidelines]]></title><description><![CDATA[Introduction The core app engine uses a binary encoding to represent word stresses. Each quiescent letter is represented with “1”
+while each…]]></description><link>https://lazvard.com/clean-lines/</link><guid isPermaLink="false">https://lazvard.com/clean-lines/</guid><pubDate>Sun, 05 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The core app engine uses a binary encoding to represent word stresses. Each quiescent letter is represented with “1”
+while each mobile letter is represented with “0”. If two or more quiescent letters occur adjacent to each other in a consonant cluster then their joint representation amounts to “01”&lt;/p&gt;
+&lt;p&gt;This approach mirrors what had been
+formalised by Al-Khalīl ibn Aḥmad al-Farāhīdī and is thereby closer to the essence of Urdu prosody. &lt;/p&gt;
+&lt;p&gt;Urdu is a syllable timed language
+and a stress based system like the one we see in English which introduces the concept of long and short syllables ought not to be mirrored for Urdu in my opinion. &lt;/p&gt;
+&lt;h2&gt;Representation&lt;/h2&gt;
+&lt;p&gt;A few words with their representation in the binary system I have devised is given in the table below.&lt;/p&gt;
+&lt;style&gt;
+td, th {
+  font-size: 2.4rem
+}
+&lt;/style&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Encoding&lt;/th&gt;
+&lt;th&gt;Word&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;۰۱&lt;/td&gt;
+&lt;td&gt;کَا&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;۱۰۱&lt;/td&gt;
+&lt;td&gt;مَاْنْ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;۰۱۰۱&lt;/td&gt;
+&lt;td&gt;غَاْلِبْ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;For the sake of simplicity and avoiding confusion, I have tried to avoid displaying this binary encoding everywhere.
+To achieve this the programme highlights the letters that are disrupting the rythm only. &lt;/p&gt;
+&lt;p&gt;For a rythmically perfect line the programme also
+tries to quantify the fluidity of the line with the help of an algorithm which takes shortened vowels into account.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Nova Genesis The development of language has been of paramount significance in the evolutionary history of humans. 
+Taming sound must have…]]></description><link>https://lazvard.com/hi-folks/</link><guid isPermaLink="false">https://lazvard.com/hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;Nova Genesis&lt;/h2&gt;
+&lt;p&gt;The development of language has been of paramount significance in the evolutionary history of humans.
+Taming sound must have been as incredible as vanquishing fire or inventing the wheel whenever it happened.&lt;/p&gt;
+&lt;p&gt;Therefore, it is not without reason that we hold language so close to our hearts. Language connects us with spectres of the past and the
+dwellers of the future: makes us question the ontological reality of time.&lt;/p&gt;
+&lt;p&gt;This application is a rewrite of a previous effort and aims to be more functional and aesthetically pleasing than its forebear.&lt;/p&gt;
+&lt;h2&gt;A Tale of Resurrection&lt;/h2&gt;
+&lt;div style=&quot;text-align: right; font-size: 2rem; line-height:3.5rem&quot;&gt;
+بس عجب روزی بود آن روز او&lt;br/&gt;
+خون چکد از نالهٔ جان سوز او&lt;br/&gt;
+باز چون عمرش رسد با یک نفس&lt;br/&gt;
+بال و پر برهم زند از پیش و پس&lt;br/&gt;
+آتشی بیرون جهد از بال او&lt;br/&gt;
+بعد آن آتش بگردد حال او&lt;br/&gt;
+زود در هیزم فتد آتش همی&lt;br/&gt;
+پس بسوزد هیزمش خوش خوش همی&lt;br/&gt;
+مرغ و هیزم هر دو چون اخگر شوند&lt;br/&gt;
+بعد از اخگر نیز خاکستر شوند&lt;br/&gt;
+چون نماند ذره‌ای اخگر پدید&lt;br/&gt;
+ققنسی آید ز خاکستر پدید
+&lt;/div&gt;
+&lt;div style=&quot;font-size: 3rem; text-align: right&quot;&gt;&lt;br/&gt; عطار نیشاپوری――&lt;/div&gt;
+&lt;h2&gt;Translation&lt;/h2&gt;
+&lt;p&gt;An esoteric day that is indeed&lt;br/&gt;
+When blood drips from the Pheonix’s lament &lt;br/&gt;
+When it comes closer to its final breath&lt;br&gt;
+It starts to hurl its feathers back and forth&lt;br&gt;
+Then from its plumes a fire hurdles out&lt;br&gt;
+And verily it morphs into a blaze&lt;br&gt;
+That blaze then swiftly reaches firewood&lt;br&gt;
+And merrily that wood burns in the blaze&lt;br&gt;
+Both bird and timber turn to ashes soon&lt;br&gt;
+When not a single flame is left alight&lt;br&gt;
+A pheonix rises from its ashes right&lt;br&gt;&lt;/p&gt;
+&lt;div style=&quot;font-size: 3rem&quot;&gt;
+―― Muhammad Rehan Qureshi&lt;/div&gt;</content:encoded></item></channel></rss>
