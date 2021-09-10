@@ -35,7 +35,7 @@ const AboutPage = ({ data }, location) => {
             but I will try my best.
           </p>
           <p>I recently contemplated rewriting my metrical scansion engine for Urdu in Typescript as part of the second version
-            of my web application. 
+            of my web application.
             <h4>
               <strong>
                 <strong>Objectives</strong>
@@ -48,21 +48,21 @@ const AboutPage = ({ data }, location) => {
             </ul>
           </p>
           <h4>
-              <strong>
-                <strong>Result</strong>
-              </strong>
-            </h4>
-            <ul>
-              <li>The engine turned out fine. Slower than my C++ implementation but still reasonably fast.</li>
-              <li>Clean codebase that relies heavily on functional programming techniques.</li>
-              <li>Installable Progressive Web App that works offline on all platforms.</li>
-              <li>Fluid UI with Gatsby and React.</li>
-            </ul>
-            
-            <p>Eventually I decided to embed the app into a somewhat multipurpose website.
-            </p>
+            <strong>
+              <strong>Result</strong>
+            </strong>
+          </h4>
+          <ul>
+            <li>The engine turned out fine. Slower than my C++ implementation but still reasonably fast.</li>
+            <li>Clean codebase that relies heavily on functional programming techniques.</li>
+            <li>Installable Progressive Web App that works offline on all platforms.</li>
+            <li>Fluid UI with Gatsby and React.</li>
+          </ul>
 
-            <h3>―― Muhammad Rehan Qureshi</h3>
+          <p>Eventually I decided to embed the app into a somewhat multipurpose website.
+          </p>
+
+          <h3>―― Muhammad Rehan Qureshi</h3>
         </div>
       </article>
     </Layout>
@@ -96,3 +96,5 @@ export default props => (
     )}
   />
 )
+
+
