@@ -37,6 +37,7 @@ Eventually I decided to embed the app into a multipurpose website with a modern 
 
 ![Desktop Image](showcase/desk.png)
 
-Input | Outout
-- | - 
-![alt](showcase/mob1.png) | ![alt](showcase/mob2.png)
+<table><tr>
+<td> <img src="showcase/mob1.png" alt="Drawing" style="width: 350px;"/> 
+<td> <img src="showcase/mob2.png" alt="Drawing" style="width: 350px;"/> 
+</tr></table>
