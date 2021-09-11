@@ -51,7 +51,8 @@ export const MuqattaTrue = (metreComb: MetreComb, combination: Combination): boo
     const afaeel = metreComb.afaeel
     const half1 = encoding.substring(0, encoding.length / 2);
     const afaeelList = afaeel.split(' ')
-    const notPlain = (afaeelList[0] !== afaeelList[1])
+    const notPlain = (afaeelList[0] !== afaeelList[1]) 
+
     const finalCheck = RemoveSuffixOne(combination.combinationString) === `${half1}1${half1}`
 
     const check = combination.validTasbeegh()

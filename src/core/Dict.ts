@@ -24,7 +24,8 @@ interface rootType {
 }
 
 function retrieveWeights(word: string): Array<string> {
-    const weights = dict[word]
+    const updatedWord = (!word.endsWith('ِ')) ? word.replaceAll('ِ', '') : word.replaceAll('ِ', '') + 'ِ'
+    const weights = dict[updatedWord]
     return (weights != null) ? weights : []
 }
 
@@ -39,11 +40,11 @@ export function obtainWeights(word: string) {
 function rootSearch(word: string, weights: Array<string>, el: rootType, dict: DictType): Array<string> {
     return (weights.length === 0) ? retrieveWeights(`${word.substr(0, word.length - el.suffixToRemove.length)}${el.suffixToAdd}`)
         .map(it => `${it.substr(0, it.length - el.removeLastN)}${el.weightToAdd}`) : []
-
 }
 
 export function wordPresent(word: string) {
-    return dict[word] !== null
+    const updatedWord = (!word.endsWith('ِ')) ? word.replaceAll('ِ', '') : word.replaceAll('ِ', '') + 'ِ'
+    return dict[updatedWord] !== null
 }
 
 const rootMap: rootType[] = [

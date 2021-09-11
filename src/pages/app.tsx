@@ -13,13 +13,16 @@ import "../utils/normalize.css"
 import "../utils/css/screen.css"
 import { Output } from '../components/output';
 
-const AboutPage = ({ data }, location) => {
+const AboutPage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
   const [output, setOutput] = useState<LineOutput[]>()
   const [loading, setLoading] = useState("hidden")
 
+  const [_, forceUpdate] = useReducer((x) => x + 1, 0);
+
   const updateOutput = (update: LineOutput[]) => {
-    setOutput(update)
+    setOutput(null);
+    setOutput(update);
   }
 
   const keywords = [`blog`, `gatsby`, `javascript`,

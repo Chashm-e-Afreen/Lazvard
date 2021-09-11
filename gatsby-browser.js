@@ -13,17 +13,5 @@ export const onServiceWorkerUpdateReady = async (args) => {
           "Our website just got a little bit better. We reloaded the site with the update to ensure a smooth experience for you."
       })
     }
-    forceReload()
+    window.location.href = window.location.href
   }
-
-function forceReload() {
-    if(environment.production) {
-        const form = document.createElement('form');
-        form.method = "POST";
-        form.action = location.href;
-        document.body.appendChild(form);
-        form.submit();
-    } else {
-        window.location.reload();
-    }
-}

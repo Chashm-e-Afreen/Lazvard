@@ -40,19 +40,19 @@ export function InputBox(props: { update: Function, setLoading: Function }) {
     }
 
     async function GetResult() {
-        if (isBlank(text))
-            return
+        if (isBlank(text)) return
 
         props.setLoading("h-14 w-14 mt-10")
         window.location.hash = ""
         window.location.hash = "loader"
-
         await sleep(5)
 
         const lines = splitInput(text)
         const [valid, invalid] = partition(lines, el => el.unknownWords.length === 0)
 
         const output = MainCourse(valid, invalid)
+
+        await sleep(5);
         props.update(output)
         props.setLoading("hidden")
         window.location.hash = "output"

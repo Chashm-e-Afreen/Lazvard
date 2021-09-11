@@ -12,6 +12,7 @@ export class Line {
         this.weightsInLine = applyVaslAndIsqat(this.wordsInLine)
         this.unknownWords = this.wordsInLine.filter(it => it.notFound)
         this.combinations = CartesianProduct(this.weightsInLine).map(it => new Combination(it, this.wordsInLine.map(it => it.word)))
+                        .filter(el => !el.combinationString.includes('11111'))
     }
 }
 
@@ -28,7 +29,7 @@ export class Combination {
         this.endLocations = getEndLocations(weightList)
         this.validTasbeegh = () => {
             const temp = this.combinationString.endsWith("1") ? this.combinationString.slice(0, -1) : this.combinationString
-            const val = this.endLocations.has(temp.length/2)
+            const val = this.endLocations.has(Math.floor(temp.length/2) + 1)
             return val
         }
     }

@@ -17,6 +17,10 @@ export interface CombStringPair {
 }
 
 export const MainCourse = (validLines: Line[], invalidLines: Line[]): LineOutput[] => {
+    const invalidOut = invalidLines.map(it => InvalidLineOutput(it))
+
+    if (validLines.length === 0) return invalidOut
+    
     const closestMatches = validLines.map(it => ClosestMatchForLineNew(it.combinations))
     const mostMatchedSet = UniversalSet(modeNew(closestMatches).match)
 
@@ -34,7 +38,6 @@ export const MainCourse = (validLines: Line[], invalidLines: Line[]): LineOutput
         }
     })
 
-    const invalidOut = invalidLines.map(it => InvalidLineOutput(it))
     return [...output, ...invalidOut]
 }
 

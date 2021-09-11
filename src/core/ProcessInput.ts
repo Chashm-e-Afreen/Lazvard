@@ -6,8 +6,8 @@ const removeNuisances = (input: string) => {
 }
 
 export const splitInput = (input: string) => {
-    const removeWS = (s: string) => s.split(' ').filter(n => n).join(' ');
-    const lines = input.split('\n').map(elem => removeWS(removeNuisances(elem))).filter(elem => elem !== "")
+    const removeWS = (s: string) => s.split(' ').filter(n => n).join(' ')
+    const lines = input.split('\n').map(elem => removeWS(removeNuisances(elem.replaceAll('ۂ', 'ۂ')))).filter(elem => elem !== "")
     return lines.map(el => new Line(el.split(' ')))
 }
 export const partition = <T>(array: T[], isValid: (element: T) => boolean): [T[], T[]] => {
@@ -75,6 +75,6 @@ const allowed = new Set([
     "ۂ",
     "ؤ",
     "ۂ",
-    " "
+    " ",
 ]
 )
