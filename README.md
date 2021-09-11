@@ -35,9 +35,8 @@ Eventually I decided to embed the app into a multipurpose website with a modern 
 ### Showcase
 
 
-A | B
-- | - 
-![alt](showcase/mob1.png) | ![alt](showcase/mob2.png)
-
 ![Desktop Image](showcase/desk.png)
 
+Input | Outout
+- | - 
+![alt](showcase/mob1.png) | ![alt](showcase/mob2.png)
