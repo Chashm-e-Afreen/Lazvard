@@ -9,11 +9,12 @@
   Läžvard لاژورد
 </h1>
 
+### App geared towards linguistics and literature with a focus on prosody and poetry.
 ---
 
-App geared towards linguistics and literature with a focus on prosody and poetry.
 
-I recently contemplated rewriting my metrical scansion engine for Urdu in Typescript as part of a version 2.0 of my web application. I will briefly list the rationale and the outcomes of the project below.
+
+I recently contemplated rewriting my metrical scansion engine for Urdu in Typescript as part of a the second version of my web application. The objectives and the outcomes of the project have been listed listed below. 
 
 ### Objectives
 
@@ -24,13 +25,20 @@ I recently contemplated rewriting my metrical scansion engine for Urdu in Typesc
 
 ### Result
 
-- The app engine turned out fine. Slower than my C++ implementation but still reasonably fast. It's mostly a rewrite of my Kotlin Android implementation.
+- The app engine turned out fine. Slower than my C++ implementation but still reasonably fast. It's mostly a rewrite of my Kotlin implementation.
 - Clean codebase that relies heavily on functional programming techniques.
 - Installable Progressive Web App that can work offline on all platforms.
 - Fluid UI with Gatsby and React.
 
 Eventually I decided to embed the app into a multipurpose website with a modern user interface.
 
+
+### Technologies Used 
+
+* [Typescript](https://Typescriptlang.org/)
+* [React](https://reactjs.org/)
+* [Gatsby](https://www.gatsbyjs.com/)
+* [TailwindCSS](https://tailwindcss.com/)
 
 ### Showcase
 
