@@ -88,19 +88,18 @@ module.exports = {
         background_color: `#6f94cd`,
         theme_color: `#111111`,
         display: `standalone`,
-        icon: 'content/assets/lazvard.png',
         icons: [
           {
-            src: `content/assest/lazvard2.png`,
-            sizes: `192x192`,
+            src: `content/assets/lazany.png`,
+            sizes: `512x512`,
             type: `image/png`,
             purpose: `any`
           },
           {
-            src: `content/assest/lazvard.png`,
+            src: `content/assets/lazvard.png`,
             sizes: `512x512`,
             type: `image/png`,
-            purpse: `maskable`
+            purpose: `maskable`
           },
         ],
         description: 'App geared towards linguistics and literature with a focus on prosody and poetry.'

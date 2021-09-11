@@ -1,9 +1,9 @@
 ---
 title: Guidelines
-date: "2019-05-05"
 thumbnail: ./guide.webp
 tags: ["عروض", "writings"]
 description: Let's get started.
+date: "2021-08-09"
 ---
 
 ## Introduction

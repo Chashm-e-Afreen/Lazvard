@@ -3,6 +3,7 @@ title: Examples
 thumbnail: ./bbbb.webp
 tags: [Taqti, عروض, تقطیع, وزن, Arooz, اردو, Urdu]
 description: اردو شاعری میں غالب کی استعمال کردہ بحور
+date: "2021-10-09"
 ---
 
 ## کہتے ہیں کہ غالب کا ہے اندازِ بیاں اور
